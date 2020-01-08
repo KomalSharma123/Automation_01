@@ -9,5 +9,10 @@ public class Class1 {
 	{
 		System.out.println("hello world");
 	}
+	@Test
+	public void f2()
+	{
+		System.out.println("hello in this world");
+	}
 
 }
