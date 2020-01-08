@@ -14,5 +14,9 @@ public class Class1 {
 	{
 		System.out.println("hello in this world");
 	}
-
+	@Test
+	public void f3()
+	{
+		System.out.println("hello duniya");
+	}
 }
