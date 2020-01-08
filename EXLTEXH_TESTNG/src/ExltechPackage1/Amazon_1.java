@@ -1,5 +1,7 @@
 package ExltechPackage1;
 
+import java.awt.print.Printable;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -62,11 +64,19 @@ public class Amazon_1
 	  driver=new FirefoxDriver();
  }
  
+ @Test
+ public void Print()
+ {
+	 System.out.println("hello");
+ }
+ 
+ 
  @AfterTest
  public void test2()
  {
 	  driver.close();
  }
+ 
 	  
 	  
 }
