@@ -73,8 +73,13 @@ public class Amazon_1
  public void Print1()
  {
 	 System.out.println("duniya");
+	 
  }
- 
+ @Test
+ public void Print2()
+ {
+	 System.out.println("hello");
+ }
  @AfterTest
  public void test2()
  {
