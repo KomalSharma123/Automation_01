@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="3" guice-stage="DEVELOPMENT" verbose="5" name="Failed suite [Shopping]" parallel="tests">
+  <test name="TestN">
+    <classes>
+      <class name="ExltechPackage1.Test1"/>
+    </classes>
+  </test> <!-- TestN -->
+  <test name="TestNc">
+    <classes>
+      <class name="ExltechPackage2.NewTest2"/>
+    </classes>
+  </test> <!-- TestNc -->
+</suite> <!-- Failed suite [Shopping] -->

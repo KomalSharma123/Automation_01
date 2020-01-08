@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Shopping"  verbose="5" thread-count="3"  annotations="JDK" parallel="tests" >
+  
+  
+  <test name="TestN" >
+    <classes>
+      <class name="ExltechPackage1.Test1">
+      </class>
+     </classes>
+ </test>
+ 
+ <test name="TestNc" >
+    <classes>
+      <class name="ExltechPackage2.NewTest2">
+      </class>
+     </classes>
+ </test>
+ 
+ 
+</suite>

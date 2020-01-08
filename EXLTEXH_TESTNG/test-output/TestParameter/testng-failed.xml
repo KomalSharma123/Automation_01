@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="3" guice-stage="DEVELOPMENT" verbose="5" name="Failed suite [TestParameter]" parallel="tests">
+  <parameter name="Search" value="google"/>
+  <parameter name="Author" value="Bobby123"/>
+  <test name="Parameter">
+    <parameter name="Search" value="Selenium"/>
+    <parameter name="Author" value="Bobby123"/>
+    <classes>
+      <class name="ExltechPackage1.NewTest"/>
+    </classes>
+  </test> <!-- Parameter -->
+  <test name="Parameter1">
+    <parameter name="Search" value="12354"/>
+    <parameter name="Author" value="Bobby"/>
+    <classes>
+      <class name="ExltechPackage1.NewTest"/>
+    </classes>
+  </test> <!-- Parameter1 -->
+  <test name="Parameter2">
+    <parameter name="Author" value="Bobby123"/>
+    <classes>
+      <class name="ExltechPackage1.NewTest"/>
+    </classes>
+  </test> <!-- Parameter2 -->
+  <test name="Parameter3">
+    <parameter name="Search" value="google"/>
+    <classes>
+      <class name="ExltechPackage1.NewTest"/>
+    </classes>
+  </test> <!-- Parameter3 -->
+</suite> <!-- Failed suite [TestParameter] -->

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="TestParameter"  verbose="5" thread-count="3"  annotations="JDK" parallel="tests" >
+<parameter name="Author" value="Komal123"></parameter>
+<parameter name="Search" value="Myntra"></parameter>
+  <test name="Parameter" >
+   	<parameter name="Author" value="Bobby123"></parameter>
+      <parameter name="Search" value="Selenium"></parameter>
+      
+      <classes>
+      <class name="ExltechPackage1.NewTest">
+      </class>
+      
+     </classes>
+ </test>
+ <test name="Parameter1" >
+   	<parameter name="Author" value="Bobby"></parameter>
+      <parameter name="Search" value=12354</parameter>
+      
+      <classes>
+      <class name="ExltechPackage1.NewTest">
+      </class>
+      
+     </classes>
+ </test>
+ 
+ <test name="Parameter2" >
+   	<parameter name="Author" value="Bobby123"></parameter>
+      
+      
+      <classes>
+      <class name="ExltechPackage1.NewTest">
+      </class>
+      
+     </classes>
+ </test>
+ 
+ 
+  <test name="Parameter3" >
+   	<parameter name="Search" value="google"></parameter>
+      
+      
+      <classes>
+      <class name="ExltechPackage1.NewTest">
+      </class>
+      
+     </classes>
+ </test>
+ </suite>
