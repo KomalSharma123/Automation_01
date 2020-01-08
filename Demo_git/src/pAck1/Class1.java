@@ -7,7 +7,7 @@ public class Class1 {
 	@Test
 	public void f1()
 	{
-		System.out.println();
+		System.out.println("hello world");
 	}
 
 }
