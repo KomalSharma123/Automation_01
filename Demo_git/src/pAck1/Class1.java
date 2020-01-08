@@ -17,6 +17,6 @@ public class Class1 {
 	@Test
 	public void f3()
 	{
-		System.out.println("hello duniya");
+		System.out.println("hello duniya mad ppl");
 	}
 }
