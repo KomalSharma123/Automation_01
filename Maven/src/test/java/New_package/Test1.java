@@ -27,6 +27,7 @@ public class Test1 {
 		driver.findElement(By.id("email")).sendKeys("Sharma1993k@gmail.com");
 		driver.findElement(By.id("pass")).sendKeys("lubnakomal");
 		driver.findElement(By.id("u_0_b")).click();
+		driver.close();
 		
 		}
 
