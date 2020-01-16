@@ -25,6 +25,7 @@ public class Test1 {
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		driver.findElement(By.id("email")).sendKeys("Sharma1993k@gmail.com");
+		driver.findElement(By.id("pass")).sendKeys("Komallubna");
 		
 		}
 
