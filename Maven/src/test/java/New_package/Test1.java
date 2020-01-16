@@ -12,12 +12,12 @@ public class Test1 {
 	WebDriver driver;
 	
 	@Test
-	public void f()
+	public void Display()
 	{
 		System.out.println("Hello Maven");
 	}
 	@Test
-	public void f2()
+	public void login()
 	{
 		System.setProperty("webdriver.gecko.driver","C:\\geckodriver-v0.26.0-win64\\geckodriver.exe");
 		WebDriver driver=new FirefoxDriver();
